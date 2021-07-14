@@ -1,0 +1,50 @@
+.container {
+  background-image: url(https://avatars.githubusercontent.com/u/67551770?v=4);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 625px;
+  background-attachment: fixed;
+  background-size: 600px;
+}
+.index{
+  background-image: url(https://avatars.githubusercontent.com/u/67551770?v=4);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 825px;
+  background-attachment: fixed;
+  background-size: 600px;
+}
+@media (max-width: 1200px) {
+  .container {
+    height: 850px;
+  background-image: url(https://eitrawmaterials.eu/wp-content/uploads/2019/10/shutterstock_773293384-3.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  }
+  .form {
+  opacity: 0.7;
+  
+}
+.menu{
+  background-image: url(https://eitrawmaterials.eu/wp-content/uploads/2019/10/shutterstock_773293384-3.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+.text1Home{
+  font-size: 25px;
+}.text2Home{
+  font-size: 32px;
+}
+.index{
+  background-image: url(https://avatars.githubusercontent.com/u/67551770?v=4);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 725px;
+  width: auto;
+  background-attachment: fixed;
+  background-size: 450px;
+}
+}
+
