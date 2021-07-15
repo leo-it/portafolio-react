@@ -12,12 +12,6 @@ import {
 const Acpordion = ({ posts }) => {
   return (
     <div>
-      {/*   {posts.map((post) => (
-        <>
-          <h3>{post.title}</h3>
-          <p>{post.body}</p>
-        </>
-      ))} */}
 
       <Accordion allowToggle defaultIndex={[0]}>
         <AccordionItem>
@@ -31,11 +25,11 @@ const Acpordion = ({ posts }) => {
           </h2>
           <AccordionPanel pb={4}>
             Soy una persona responsable y comprometida, disfruto del trabajo en
-            equipo y me apasiona la tecnologia. Desarrollo de APIs con NodeJS,
-            MySQL Firebase y MongoDB. Tengo experiencia de trabajo en equipo con
-            Git, bitbucket, Jira, Trello y Slack. Se maquetar con HTML, CSS,
-            Bootstrap, Chakra y MaterialUI. Estoy aprendiendo POO con JAVA y
-            TypeScript. Tengo un manejo del Ingles A1.
+            equipo y me apasiona la tecnologia.<br/> Desarrollo de APIs con NodeJS,
+            MySQL Firebase y MongoDB.<br/> Tengo experiencia de trabajo en equipo con
+            Git, bitbucket, Jira, Trello y Slack.<br/> Se maquetar con HTML, CSS,
+            Bootstrap,<br/> Chakra y MaterialUI.<br/> Estoy aprendiendo POO con JAVA y
+            TypeScript.<br/> Tengo un manejo del Ingles A1.
           </AccordionPanel>
         </AccordionItem>
 
@@ -70,13 +64,12 @@ const Acpordion = ({ posts }) => {
           </h2>
           <AccordionPanel pb={4}>
             <UnorderedList>
-              <ListItem>Lorem ipsum dolor sit amet</ListItem>
+              <ListItem>Trabajo en equipo</ListItem>
               <ListItem>
-                Consectetur adipisciFacilisis in pretium nisadasdasdassl
-                aliquetFacilisis ng elit
+                Buena comunicación
               </ListItem>
-              <ListItem>Integer molestie lorem at massa</ListItem>
-              <ListItem>Facilisis in pretium nisl aliquet</ListItem>
+              <ListItem>Responsable</ListItem>
+              <ListItem>Capacidad de adaptación</ListItem>
             </UnorderedList>
           </AccordionPanel>
         </AccordionItem>
