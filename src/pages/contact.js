@@ -3,6 +3,7 @@ import { Text, SimpleGrid, Box, Center, Image, Button } from "@chakra-ui/react";
 import ImageProfile from "../components/imageProfile/ImageProfile";
 import FormContact from "../components/formContact/FormContact";
 import styles from '../styles/Home.module.css'
+import ContactAcordion from "../components/ContactAcpordion";
 
 export default function Contact() {
   return (
@@ -18,7 +19,7 @@ export default function Contact() {
           
           <Box className={styles.form} boxShadow="2xl" p="6" rounded="md" bg="white" height="445px" >
             
-            <FormContact />
+            <ContactAcordion />
           </Box>{" "}
         </Box>
       <br />

@@ -13,15 +13,15 @@ export default function Home() {
           <div className="col-md-8 p-2">
             <div>
               <Center>
-                <Text className={styles.text1Home} fontSize="4xl">
-                  <br />
+                <Text className={styles.text1Home} >
+                 
                   <br />
                   Hola soy Leonardo
                 </Text>{" "}
               </Center>{" "}
               <Center>
                 {" "}
-                <Text className={styles.text2Home} fontSize="6xl"> Desarrollador Fullstack</Text>{" "}
+                <Text className={styles.text2Home} > Desarrollador Fullstack</Text>{" "}
               </Center>{" "}
               <Center>
                 {" "}
